@@ -1,1 +1,17 @@
+seed: 42
+task: emotion
+subjects: ["01", "02", "03"]  # sesuai BIDS
+montage: "standard_1020"
+
+filter:
+  l_freq: 1.0
+  h_freq: 40.0
+
+ica:
+  n_components: 20
+
+epoch:
+  tmin: -0.2
+  tmax: 0.8
+  baseline: [null, 0]
 
