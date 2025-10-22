@@ -1,1 +1,13 @@
+cnn:
+  name: "EEGNet"
+  input_channels: 32
+  input_length: 250
+  dropout: 0.5
+
+transformer:
+  name: "EEGTransformer"
+  num_heads: 4
+  num_layers: 2
+  dim_model: 128
+  dropout: 0.3
 
