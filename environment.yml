@@ -1,1 +1,14 @@
+name: eeg-env
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - mne
+    - mne-bids
+    - numpy
+    - scikit-learn
+    - torch
+    - matplotlib
+    - seaborn
+    - pyyaml
 
