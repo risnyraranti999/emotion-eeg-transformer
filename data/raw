@@ -1,1 +1,1 @@
-npx openneuro download --dataset=ds003521 --snapshot=1.0.1 --destination=./data/raw/
+npx openneuro download --dataset=ds003521 --snapshot=1.0.1 --destination=./data/raw
