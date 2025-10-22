@@ -1,1 +1,9 @@
+mne
+mne-bids
+numpy
+scikit-learn
+torch
+pyyaml
+matplotlib
+seaborn
 
