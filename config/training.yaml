@@ -1,1 +1,10 @@
+seed: 42
+batch_size: 64
+epochs: 50
+learning_rate: 0.001
+optimizer: adam
+loss_function: cross_entropy
+scheduler: stepLR
+early_stopping: true
+model_type: transformer  # atau 'cnn'
 
